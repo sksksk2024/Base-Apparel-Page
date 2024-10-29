@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Kumbh+Sans:wght@100..900&family=League+Spartan:wght@100..900&family=Lexend+Deca:wght@100..900&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    
+    <!-- CSS Links -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.4.14/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./dist/output.css">
+    
+    <title>Frontend Mentor | Base Apparel coming soon page</title>
+    
+  </head>
+<body class="relative pt-24 text-center flex 3xs:flex-col justify-center items-center container-lg lg:flex-row 3xs:gap-0 lg:gap-24">
+
+  
+  <section class="3xs:w-full lg:w-1/2 flex flex-col items-center 3xs:container-default lg:container-max">
+    <header class="absolute top-9 left-9">
+      <img class="w-26 h-6 object-cover" src="./images/logo.svg" alt="base apparel">
+    </header>
+
+    <aside class="items-center mb-24" id="img1">
+      <img
+        class="img-sizing h-auto w-full"
+        src="./images/hero-mobile.jpg" alt="outfit"
+        
+      >
+    </aside>
+  
+    <main class="px-4 3xs:container-default lg:container-vsm 3xs:text-center lg:text-start">
+      <h1 class="3xs:text-xl 2xs:text-2xl lg:text-6xl lg:gap-10 font-300 grid grid-row-2 uppercase">
+        <span class="text-desaturated-red 3xs:-mb-6">We're</span>
+        <div class="mb-8 flex 3xs:flex-row lg:flex-col gap-2 justify-center items-center lg:items-start lg:gap-10">
+          <span class="3xs:mb-0 lg:-mb-6 text-dark-grayish-red">coming</span>
+          <span class=" text-dark-grayish-red">soon</span>
+        </div>
+      </h1>
+  
+      <p class="text-desaturated-red container-vsm">
+        Hello fellow shoppers! We're currently building our new fashion store. Add your email below to stay up-to-date with announcements and our launch deals.
+      </p>
+  
+      <form class="3xs:relative flex flex-col items-center justify-center mb-24 xl:flex-row xl:gap-2 container-vsm">
+        <!-- INPUT -->
+        <input type="email" aria-label="type your email in here" placeholder="Email Address" required
+        class="3xs:w-3/4 2xs:w-full 3xs:text-btn 2xs:text-p1 border-solid border-1 border-desaturated-red rounded-full py-2 px-4 text-desaturated-red focus:outline-none focus:invalid:border-soft-red focus:invalid:text-soft-red placeholder-desaturated-red 3xs:static lg:relative" />
+        <!-- BUTTON -->
+        <button type="submit"top
+        class="3xs:text-btn 2xs:text-p1 py-2  bg-desaturated-red rounded-full text-white font-600 shadow-xl text-p1 mt-4 xl:mt-0 xl:text-btn xl:h-10  transition duration-200 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-very-dark-desaturated-red w-64 absolute top-1rneg h-3r bg-custom-gradient pl-28 rounded-50px xl:top-0.1r">
+          <img src="./images/icon-arrow.svg" alt="submit here"> <!--3xs:right-18r px-4 3xs:w-btn 2xs:w-12 xl:w-36-->
+        </button>
+      </form>
+    </main>
+  </section>
+
+  <aside class="w-full container-max" id="img2">
+    <img
+      class=" w-full aside2 object-cover"
+      src="./images/hero-desktop.jpg" alt="outfit2"
+    >
+    <!-- desktop-img aside2 -->
+  </aside>
+
+  <script src="./js/script.js"></script>
+</body>
+</html>
